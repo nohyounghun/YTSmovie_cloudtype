@@ -1,0 +1,55 @@
+
+.movie_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 10px;
+  margin-left: 180px;
+}
+
+.movie_item {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+/*   border: 1px solid #ccc; */
+  background: #fff;
+  border-radius: 5px;
+}
+
+.movie_item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.movie_item h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.movie_item p {
+  font-size: 0.9em;
+  margin-bottom: 3px;
+}
+
+.movie_item .genres {
+  font-style: italic;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+.movie_item .summary {
+  margin-top: 10px;
+}
+
+.movie_item .rating {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.movie_link {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.movie-detail {
+  display: flex;
+  padding: 40px 0px 0px 200px;
+  gap: 40px;
+}
+.movie-detail img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+}
+.movie-detail__info {
+  max-width: 600px;
+}
+.movie-detail__info h1 {
+  margin-bottom: 10px;
+}
+
+.back-button{
+  position:relative;
+  top:100px;
+  padding:5px 10px;
+  border:1px solid #ccc;
+  background:#333;color:#fff;
+}
